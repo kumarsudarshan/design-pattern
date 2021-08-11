@@ -1,0 +1,59 @@
+@startuml
+
+abstract class AbstractDeviceFactory {
+    abstract Device getGadget(DeviceType deviceType);
+}
+
+class LaptopFactory extends AbstractDeviceFactory {
+    Device getGadget(DeviceType deviceType);
+}
+
+class MobileFactory extends AbstractDeviceFactory {
+ Device getGadget(DeviceType deviceType);
+}
+
+abstract class Device {
+    public abstract String getDetails();
+}
+class Dell extends Device {
+    private String ram;
+    private String processor;
+    private String gpu;
+    public String getDetails();
+    public String toString();
+}
+class HP extends Device {
+    private String ram;
+    private String processor;
+    private String gpu;
+    public String getDetails();
+    public String toString();
+}
+class Nokia extends Device {
+    private String ram;
+    private String processor;
+    public String getDetails();
+    public String toString();
+}
+class OnePlus extends Device {
+    private String ram;
+    private String processor;
+    public String getDetails();
+    public String toString();
+}
+
+enum FactoryType {
+    LAPTOPFACTORY,
+    MOBILEFACTORY
+}
+enum DeviceType {
+    DELL,
+    HP,
+    ONEPLUS,
+    NOKIA
+}
+class FactoryGenerator {
+    public static AbstractDeviceFactory getFactory(FactoryType factoryType)
+}
+
+@enduml
