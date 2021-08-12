@@ -16,3 +16,5 @@ It is also known as Action or Transaction.
 - When you need parameterize objects according to an action perform.
 - When you need to create and execute requests at different times.
 - When you need to support rollback, logging or transaction functionality.
+
+![image](https://user-images.githubusercontent.com/8271393/129245992-5c2d257b-7cdc-4f04-8a7b-76007f3fecc5.png)
