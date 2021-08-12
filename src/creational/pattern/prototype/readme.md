@@ -17,3 +17,5 @@ This pattern should be followed, if the cost of creating a new object is expensi
 - When the cost of creating an object is expensive or complicated.
 - When you want to keep the number of classes in an application minimum.
 - When the client application needs to be unaware of object creation and representation.
+
+![image](https://user-images.githubusercontent.com/8271393/129145451-d09b1bd6-23c8-473c-afa5-8812dc14b97b.png)
