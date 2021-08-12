@@ -28,3 +28,5 @@ Proxy pattern is also known as Placeholder.
   specific actions when the object is accessed. For example, to check whether the real object is locked or not before
   accessing it so that no other objects can change it.
   
+  ![image](https://user-images.githubusercontent.com/8271393/129239785-dd6d6264-85a1-442b-85ff-03f3dc43b8cd.png)
+
