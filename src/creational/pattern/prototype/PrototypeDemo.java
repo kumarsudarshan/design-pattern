@@ -3,7 +3,6 @@ package creational.pattern.prototype;
 
 class PrototypeDemo {
     public static void main(String[] args) {
-
         int eid = 111;
         String ename = "Kumar";
         String edesignation = "Developer";
